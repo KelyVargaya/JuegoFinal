@@ -1,0 +1,162 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; 
+    border: 1px solid #888;
+    width: 80%; 
+}
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.close:hover, .close:focus {
+    color: red;
+    cursor: pointer;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    opacity: 0.8;
+}
+.container {
+    padding: 16px;
+}
+a:hover, a:focus {
+    text-decoration: none;
+    color: #eee;
+}
+.logo-kapsul {
+    text-align: center;
+    position: relative;
+    opacity: 0.8;
+}
+.logo {
+    height: auto;
+    padding: 50px 0px;
+}
+.group {
+    position: relative;
+    margin-bottom: 45px;
+}
+.group input {
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: none;
+    color: #eee;
+}
+.group input:focus {
+    outline: none;
+}
+.group label {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 5px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+.group input:focus ~ label, input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.bar {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.bar:before, .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.7);
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+.bar:before {
+    left: 50%;
+}
+.bar:after {
+    right: 50%;
+}
+.group input:focus ~ .bar:before, .group input:focus ~ .bar:after {
+    width: 50%;
+}
+.input-ikon {
+    font-size: 25px!important;
+    position: relative;
+}
+.input-sifre-ikon {
+    font-size: 22px!important;
+    position: relative;
+}
+.span-input {
+    margin-left: 10px;
+    position: relative;
+    top: -5px;
+}
+.giris-yap-buton, .kayit-ol-buton, .sifre-hatirlat-buton {
+    background: linear-gradient(-135deg, rgb(63, 81, 181), rgb(233, 30, 99));
+    background: -webkit-linear-gradient(-135deg, rgb(63, 81, 181), rgb(233, 30, 99));
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #eee;
+    font-family: roboto;
+    font-weight: 100;
+    padding: 10px;
+    border-radius: 3px;
+    outline: none;
+    opacity: 0.8;
+}
+.forgot-and-create {
+    margin: 20px 0px;
+}
+.forgot-and-create a {
+    color: #bbb;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 100;
+    margin-right: 10px;
+}
+.zaten-hesap-var-link {
+    color: #bbb;
+    font-size: 14px;
+    padding: 20px 0px;
+    text-decoration: none;
+    display: block;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="utf-8">
+	<title>Game Planet</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+
+<body>
+    <section class="login">
+        <div class="container">
+            <div class="row">
+                <div class="contentLogin">
+                    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
+                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <div id="id01" class="col-lg-12 logo-kapsul modal">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <form id="login-form" class="col-lg-12">
+                        <div class="col-lg-12 logo-kapsul">
+                            <img width="100" class="logo" src="https://www.rocketlanguages.com/images/common/generic-avatar-500x500.png" alt="Logo"/>
+                        </div>
+                        <div style="clear:both;"></div>
+                        <div class="group">
+                            <input type="text" required>
+                            <span class="bar"></span> 
+                            <label><i class="material-icons input-ikon">person_outline</i><span class="span-input">USER</span></label>
+                        </div>
+                        <div class="group">
+                            <input type="password" required>
+                            <span class="bar"></span> 
+                            <label><i class="material-icons input-sifre-ikon">lock</i><span class="span-input">PASSWORD</span></label>
+                        </div>
+                        <div class="forgot-and-create tab-menu">
+                            <a class="sifre-hatirlat-link" href="javascript:void('sifre-hatirlat-link');">Forgot Password?</a>
+                            <a class="hesap-olustur-link" href="javascript:void('hesap-olustur-link');">Registrarme</a>
+                        </div>
+                        <a href="javascript:void(0);" class="giris-yap-buton">Login</a>
+                        <h4>On Login With</h4>
+                        <div class="forgot-and-create tab-menu">
+                            <div class="logito">
+                                <fb:login-button scope="public_profile,email" target="_blank" onlogin="validarUsuario();"></fb:login-button>
+                            </div>
+                            <div class="logito">
+                                <a class="btn btn-block btn-social btn-google google">
+                                <span class="fa fa-google" style="font-size:38px;color:white;"></span>
+                            </a>
+                            </div>
+                        </div>
+                    </form>
+                    <form id="kayit-form" class="col-lg-12">
+                        <div style="clear:both;"></div>
+                        <div class="group">
+                            <input type="text" required>
+                            <span class="bar"></span> 
+                            <label><i class="material-icons input-ikon">person_outline</i><span class="span-input">User Name</span></label>
+                        </div>
+                        <div class="group">
+                            <input type="text" required>
+                            <span class="bar"></span> 
+                            <label><i class="material-icons input-ikon">mail_outline</i><span class="span-input">E-Mail</span></label>
+                        </div>
+                        <div class="group">
+                            <input type="password" required>
+                            <span class="bar"></span> 
+                            <label><i class="material-icons input-sifre-ikon">lock</i><span class="span-input">Password</span></label>
+                        </div>
+                        <div class="group">
+                            <input type="password" required>
+                            <span class="bar"></span> 
+                            <label><i class="material-icons input-sifre-ikon">lock</i><span class="span-input">Confirm Password</span></label>
+                        </div>
+                        <a href="javascript:void(0);" class="kayit-ol-buton">Registrar</a>
+                        <a class="zaten-hesap-var-link" href="javascript:void('zaten-hesap-var-link');">Volver Atras</a>
+                    </form>
+                    <form id="sifre-hatirlat-form" class="col-lg-12">
+                        <div style="clear:both;"></div>
+                        <div class="group">
+                            <input type="text" required>
+                            <span class="bar"></span> 
+                            <label><i class="material-icons input-ikon">mail_outline</i><span class="span-input">E-Mail</span></label>
+                        </div>
+                        <a href="javascript:void(0);" class="sifre-hatirlat-buton">Enviar</a>
+                        <a class="zaten-hesap-var-link" href="javascript:void('zaten-hesap-var-link');">Volver Atras</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Incluir todos tus scripts apartir de este punto -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/e996786236.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

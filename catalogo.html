@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Game Planet</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+		<div class="navbar-wrapper navbar-fixed-top container-fluid">
+				<div class="row">
+				  <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
+					<a href="index.html"><img src="img/logo.png" alt="" class="img-responsive"></a>
+				  </div>
+				  <!-- /.col-lg-4 -->
+				  <div class="col-lg-6 col-md-6 hidden-xs hidden-sm">
+					<form class="navbar-form navbar-right" role="search">
+					  <div class="form-group">
+						<input type="text" class="form-control" placeholder="Buscar">
+					  </div>
+					  <button type="submit" class="btn btnLupa btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
+					  <button type="button" class="btn btnIcons " data-toggle="tooltip" data-placement="bottom" title="Iniciar Sesión"><i class="fa fa-user navIcons" aria-hidden="true"></i></button>
+					  <button type="button" class="btn btnIcons " data-toggle="tooltip" data-placement="bottom" title="Hola!! Puedes anadir productos a tu carrito"><i class="fa fa-shopping-cart navIcons" aria-hidden="true"></i></button>
+					</form>
+				  </div>
+				  <!-- /.col-lg-4 -->
+				</div>
+				<!-- /.row -->
+				<div class="row">
+				  <nav class="navbar navbar-inverse" role="navigation" style="margin-bottom: 0">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="col-sm-3 col-xs-3">
+					  <div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+					  </div>
+					  <!-- Collect the nav links, forms, and other content for toggling -->
+					</div>
+					<!-- /.navbar-collapse -->
+					<div class="hidden-lg hidden-md col-sm-4 col-xs-4">
+					  <img src="img/logo.png" alt="" class="img-responsive">
+					</div>
+					<!-- /.container-fluid -->
+					<div class="col-sm-4 col-xs-4 hidden-lg hidden-md">
+					  <input type="text" class="form-control" placeholder="Buscar">
+					</div>
+					<div class="collapse navbar-collapse " id="bs-megadropdown-tabs">
+					  <ul class="nav navbar-nav">
+						<li><a href="about.html">ABOUT</a></li>
+						<li><a href="team.html">TEAM</a></li>
+						<li><a href="index.html #contact">CONTACTO</a></li>
+						<li class="dropdown mega-dropdown active">
+						  <a href="catalogo.html" class="dropdown-toggle" data-toggle="dropdown">CATÁLOGO<span class="caret"></span></a>
+						  <div class="dropdown-menu mega-dropdown-menu">
+							<div>
+							  <!-- Tab panes -->
+							  <div class="tab-content">
+								<div class="tab-pane active" id="men">
+								  <ul class="nav-list list-inline">
+									<li><a href="#ps3"><img src="http://findicons.com/files/icons/1855/play_time/128/playstation_2.png"><span>PS2</span></a></li>
+									<li><a href="#ps3"><img src="img/PS3.png"><span>PS3</span></a></li>
+									<li><a href="#ps4"><img src="img/Playsystem.png"><span>Xbox one</span></a></li>
+									<li><a href="#pc"><img src="img/Playsystem.png"><span>3DS</span></a></li>
+									<li><a href="#x-box"><img src="img/Playsystem.png"><span>3DS</span></a></li>
+								  </ul>
+								</div>
+								<div class="tab-pane" id="women">
+								  <ul class="nav-list list-inline">
+									<li><a href="#ps3"><img src="http://findicons.com/files/icons/1855/play_time/128/playstation_2.png"><span>PS2</span></a></li>
+									<li><a href="#ps4"><img src="img/PS3.png"><span>PS3</span></a></li>
+									<li><a href="#ps4"><img src="img/Playsystem.png"><span>Xbox one</span></a></li>
+									<li><a href="#x-box"><img src="img/Playsystem.png"><span>3DS</span></a></li>
+								  </ul>
+								</div>
+								<div class="tab-pane" id="kids">
+								  <ul class="nav-list list-inline">
+									<li><a href="#ps3"><img src="http://findicons.com/files/icons/1855/play_time/128/playstation_2.png"><span>PS2</span></a></li>
+									<li><a href="#ps4"><img src="img/PS3.png"><span>PS3</span></a></li>
+									<li><a href="#pc"><img src="img/Playsystem.png"><span>Xbox one</span></a></li>
+									<li><a href="#x-box"><img src="img/Playsystem.png"><span>3DS</span></a></li>
+									<li><a href="#ps3"><img src="img/Playsystem.png"><span>3DS</span></a></li>
+								  </ul>
+								</div>
+								<div class="tab-pane" id="sports">
+								  <ul class="nav-list list-inline">
+									<li><a href="#ps3"><img src="http://findicons.com/files/icons/1855/play_time/128/playstation_2.png"><span>Basketball</span></a></li>
+									<li><a href="#ps4"><img src="img/Playsystem.png"><span>Xbox one</span></a></li>
+									<li><a href="#x-box"><img src="img/Playsystem.png"><span>3DS</span></a></li>
+									<li><a href="#ps3"><img src="img/Playsystem.png"><span>3DS</span></a></li>
+								  </ul>
+								</div>
+							  </div>
+			
+							</div>
+							<!-- Nav tabs -->
+							<ul class="nav nav-tabs" role="tablist">
+							  <li class="active"><a href="#men" role="tab" data-toggle="tab">Men</a></li>
+							  <li><a href="#women" role="tab" data-toggle="tab">Women</a></li>
+							  <li><a href="#kids" role="tab" data-toggle="tab">Kids</a></li>
+							  <li><a href="#sports" role="tab" data-toggle="tab">Sports</a></li>
+							</ul>
+						  </div>
+						</li>
+					  </ul>
+			
+					</div>
+				  </nav>
+			
+				</div>
+			  </div>
+			
+			
+	<!-- SECTION ps3 //////////////////////////////////// CATALOGO -->
+	<div id="contenedorIMGGLOBAL">
+		<section id="ps3" class="categoria">
+			<div class="row">
+				<div class=" col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/16.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Mortal 1</h4>
+						<h4>Kombat-Edition</h4>
+						<p> $1,033.00- $ 999.00</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/15.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Alien-1</h4>
+						<h4>Insolation-Edition</h4>
+						<p> $1,099.00- $ 999.00</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/20.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Star-Wars-1</h4>
+						<h4>Lego Edition</h4>
+						<p> $1,099.00- $ 999.00</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/3.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Battlefield 1</h4>
+						<h4>Star Wars</h4>
+						<p> $1,222- $ 999.00</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/1.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Shadow - 1</h4>
+						<h4>Revolution Edition</h4>
+						<p> $1,099- $ 999.00</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/2.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Shadow-mor 1</h4>
+						<h4>Revolution Edition</h4>
+						<p> $1,099.00- $ 999.00</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- seccion categoria modal -->
+		<div class="modal fade" id="imgcategoria" role="dialog">
+			<div class="modal-dialog">
+				<!-- Modal content-->
+				<div class="modal-content ">
+					<div class="modal-header modalcont">
+						<div class="col-md-6">
+							<img id="modalIMG" class="modalIMG">
+						</div>
+						<div class="col-md-6">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4>Shadow-mor 1</h4>
+							<h4>Revolution Edition</h4>
+							<label>★★★★★</label>
+							<p style="color: #FFA500"> $1,099.00- $ 999.00</p>
+							<hr>
+							<h3><strong> DESCRIPCION</strong></h3>
+							<h5>Fecha de Lanzamiento: 14-04-2017</h>
+								<h5>Publisher: Gear-Box</h5>
+								<ul>
+									<li>Videojuego de Peoble can Fly</li>
+									<li>Invitacion Estelar</li>
+									<li>Textura de alta resolucion</li>
+									<li>Explosivos tiroteos</li>
+								</ul>
+								<hr>
+								<center><a class="btn btn-warning" data-toggle="tooltip" data-placement="bottom" title="comprame">Add-<span class="glyphicon glyphicon-shopping-cart"></span></a></center>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- SECTION PS3-HTML -->
+		<section id="ps4" class="categoria">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/4.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Mortal 1</h4>
+						<h4>Kombat-Edition</h4>
+						<p> $1,033.00- $ 999.00</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/5.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Alien-1</h4>
+						<h4>Insolation-Edition</h4>
+						<p> $1,099.00- $ 999.00</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/7.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Star-Wars-1</h4>
+						<h4>Lego Edition</h4>
+						<p> $1,099.00- $ 999.00</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/8.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Battlefield 1</h4>
+						<h4>Star Wars</h4>
+						<p> $1,222- $ 999.00</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/9.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Shadow - 1</h4>
+						<h4>Revolution Edition</h4>
+						<p> $1,099- $ 999.00</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/10.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Shadow-mor 1</h4>
+						<h4>Revolution Edition</h4>
+						<p> $1,099.00- $ 999.00</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- SECTION PS4-HTML -->
+		<section id="x-box" class="categoria">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/11.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Mortal 1</h4>
+						<h4>Kombat-Edition</h4>
+						<p> $1,033.00- $ 999.00</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/12.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Alien-1</h4>
+						<h4>Insolation-Edition</h4>
+						<p> $1,099.00- $ 999.00</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/13.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Star-Wars-1</h4>
+						<h4>Lego Edition</h4>
+						<p> $1,099.00- $ 999.00</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/14.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Battlefield 1</h4>
+						<h4>Star Wars</h4>
+						<p> $1,222- $ 999.00</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/17.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Shadow - 1</h4>
+						<h4>Revolution Edition</h4>
+						<p> $1,099- $ 999.00</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/18.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Shadow-mor 1</h4>
+						<h4>Revolution Edition</h4>
+						<p> $1,099.00- $ 999.00</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- SECTION X-BOX -->
+		<section id="pc" class="categoria">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/19.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Mortal 1</h4>
+						<h4>Kombat-Edition</h4>
+						<p> $1,033.00- $ 999.00</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/20.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Alien-1</h4>
+						<h4>Insolation-Edition</h4>
+						<p> $1,099.00- $ 999.00</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/22.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Star-Wars-1</h4>
+						<h4>Lego Edition</h4>
+						<p> $1,099.00- $ 999.00</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/3.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Battlefield 1</h4>
+						<h4>Star Wars</h4>
+						<p> $1,222- $ 999.00</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/1.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Shadow - 1</h4>
+						<h4>Revolution Edition</h4>
+						<p> $1,099- $ 999.00</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img class="categoriaimg" src="games-es/2.PNG" data-toggle="modal" data-target="#imgcategoria">
+						<h4>Shadow-mor 1</h4>
+						<h4>Revolution Edition</h4>
+						<p> $1,099.00- $ 999.00</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+					<strong><p>Nuestras Redes Sociales</p></strong>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"><span class="fa-stack fa-lg">
+				<a href="https://www.facebook.com/Game-Planet-1789231308065330/"> <i class="fa fa-circle fa-stack-2x"></i>
+					  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i></a>
+					 
+					</span><span class="fa-stack fa-lg">
+					  <i class="fa fa-circle fa-stack-2x"></i>
+					  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+					</span><span class="fa-stack fa-lg">
+					  <i class="fa fa-circle fa-stack-2x"></i>
+					  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+					</span><span class="fa-stack fa-lg">
+					  <i class="fa fa-circle fa-stack-2x"></i>
+					  <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+					</span>
+				</div>
+			</div>
+			<div class="row ">
+				<div class="pie-de-pagina col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
+
+					<strong><p>INFORMACION <i class="fa fa-info-circle" aria-hidden="true"></i></p></strong>
+
+				</div>
+				<div class="pie-de-pagina col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
+					<strong><p>SERVICIO AL CLIENTE <i class="fa fa-child" aria-hidden="true"></i></p></strong>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+					<a href="http://www.nintendo.com/"><img src="img/PS3.png" width="50" class="img-circle"></a>
+					<a href="https://www.playstation.com/es-pe/"><img src="img/PS3.png" width="50" class="img-circle" ></a>
+					<a href="http://www.xbox.com/es-MX/"><img src="img/PS3.png" width="50" class="img-circle"></a>
+				</div>
+			</div>
+			<div class="text-center">
+				<p>Copyright© Hello World 2017</p>
+				<strong><p><i class="fa fa-globe" aria-hidden="true"></i> Arequipa-Peru</p></strong>
+			</div>
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<!-- Incluir todos tus scripts apartir de este punto -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/e996786236.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>

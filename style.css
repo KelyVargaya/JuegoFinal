@@ -1,0 +1,34 @@
+/*seccion about*/
+@import url('https://fonts.googleapis.com/css?family=Sigmar+One');
+#about {
+	color:#353535;
+	color:white;
+
+}
+#about h3{
+	font-family: 'Sigmar One', cursive;
+	}
+
+#about img{
+	width: 100%;
+	border-radius: 10%;
+	padding: 5%;
+}
+
+#row2-about {
+	margin-top: 6%;
+	color:white;
+	font-size: 1.5em;
+
+}
+#row3-about{
+	margin-top: 10%;
+	font-size: 1.5em;
+}
+
+.row-fondo1{
+	background-color:  #39a39c;
+}
+.row-fondo2{
+	background-color:   #353535;
+}

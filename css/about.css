@@ -1,0 +1,65 @@
+/*CLASES REUTILIZABLES*/
+/*font-family: 'Russo One', sans-serif;
+font-family: 'Passion One', cursive;
+font-family: 'Acme', sans-serif;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Luckiest Guy', cursive;*/
+
+@import url('https://fonts.googleapis.com/css?family=Acme|Alfa+Slab+One|Fredoka+One|Luckiest+Guy|Passion+One|Russo+One');
+
+.sigmar{
+	font-family: 'Sigmar One';
+}
+
+.russo{
+	font-family: 'Russo One';
+}
+
+.acme{
+	font-family: 'Acme';
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.pd-5{
+	padding: 5px;
+}
+.pd-10{
+	padding: 10px;
+}
+.pd-35{
+	padding: 35px;
+}
+
+.white-text{
+	color: #fff;
+}
+
+
+
+.gray_bg{
+	background-color: #39a39c;
+}
+
+.blue_bg{
+	background-color: #353535;
+}
+
+.italic{
+	font-style: italic;
+}
+.bold{
+	font-weight: bold;
+}
+
+/*----------TEAM----------*/
+#team{
+	padding-top: 80px;
+	background-color: #000;
+}
+
+.grayscale{
+	filter: grayscale(100%);
+}
